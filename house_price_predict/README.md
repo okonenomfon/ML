@@ -15,5 +15,7 @@ The model can be deployed using Flask to enable real-time predictions.
 ## Installation
 
 1. Clone the Repository:
-   git clone https://github.com/enomfonokon/house_price_predict.git
-   cd housing-price-prediction
+   git clone https://github.com/okonenomfon/ML.git
+   cd house-price-predict
+
+N/B: The inputs must be based on the file attached.

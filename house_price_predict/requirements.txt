@@ -7,3 +7,4 @@ seaborn
 Flask
 category_encoders
 ipywidgets
+gradio

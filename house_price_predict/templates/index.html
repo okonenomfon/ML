@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Housing Price Prediction</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Housing Price Prediction</h1>
+        <form action="/predict" method="POST">
+            <div>
+                <label for="floor_size_sq_ft">Floor Size (sq ft):</label>
+                <input type="text" id="floor_size_sq_ft" name="floor_size_sq_ft" required>
+            </div>
+            <div>
+                <label for="latitude">Latitude:</label>
+                <input type="text" id="latitude" name="latitude" required>
+            </div>
+            <div>
+                <label for="longitude">Longitude:</label>
+                <input type="text" id="longitude" name="longitude" required>
+            </div>
+            <div>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <button type="submit">Predict</button>
+        </form>
+        <a href="/" class="home-link">Return to Home</a>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
