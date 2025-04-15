@@ -1,0 +1,24 @@
+class Config:
+        schema_extra = {
+            "example": {
+                "loan_amount": 10000.0,
+                "term": 36,
+                "interest_rate": 10.5,
+                "installment": 325.62,
+                "grade": "B",
+                "employment_length": 5.0,
+                "home_ownership": "RENT",
+                "annual_income": 60000.0,
+                "verification_status": "Verified",
+                "purpose": "debt_consolidation",
+                "dti": 15.5,
+                "delinq_2yrs": 0,
+                "earliest_credit_line": 2005,
+                "inq_last_6mths": 1,
+                "open_accounts": 8,
+                "public_records": 0,
+                "revolving_balance": 15000.0,
+                "revolving_utilization": 0.5,
+                "total_accounts": 12
+            }
+        }

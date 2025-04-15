@@ -1,0 +1,115 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-2px);
+}
+
+.risk-result {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.risk-low {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.risk-medium {
+    background-color: #fff3cd;
+    color: #664d03;
+}
+
+.risk-high {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.result-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.result-label {
+    font-weight: 600;
+}
+
+.probability-bar {
+    height: 20px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.probability-fill {
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.6s ease;
+}
+
+.probability-medium {
+    background-color: #ffc107;
+}
+
+.probability-low {
+    background-color: #198754;
+}
+
+.probability-high {
+    background-color: #dc3545;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .result-item {
+        padding: 10px;
+    }
+
+    .risk-result {
+        padding: 10px;
+    }
+}
+
